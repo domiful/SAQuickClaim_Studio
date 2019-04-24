@@ -1,0 +1,524 @@
+{
+    "authentication": {
+        "mobile": {
+            "authenticationType": "kinvey-auth",
+            "settings": {}
+        },
+        "web": {
+            "authenticationType": "kinvey-auth",
+            "settings": {}
+        }
+    },
+    "children": [
+        {
+            "clientSideProcessing": false,
+            "excludedFields": [
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "string",
+                            "label": "Creator",
+                            "name": "creator",
+                            "required": false
+                        }
+                    ],
+                    "label": "Acl",
+                    "name": "_acl",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "date",
+                            "label": "Lmt",
+                            "name": "lmt",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "date",
+                            "label": "Ect",
+                            "name": "ect",
+                            "required": false
+                        }
+                    ],
+                    "label": "Kmd",
+                    "name": "_kmd",
+                    "required": false
+                }
+            ],
+            "fields": [
+                {
+                    "fieldType": "string",
+                    "label": "Id",
+                    "name": "_id",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "ManyInjuries",
+                    "name": "manyInjuries",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "ManyVehicles",
+                    "name": "manyVehicles",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "LossCause",
+                    "name": "lossCause",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "Statement",
+                    "name": "statement",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "string",
+                            "label": "Address1",
+                            "name": "address1",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "string",
+                            "label": "Address2",
+                            "name": "address2",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "string",
+                            "label": "City",
+                            "name": "city",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "string",
+                            "label": "State",
+                            "name": "state",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "string",
+                            "label": "Zip",
+                            "name": "zip",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "string",
+                            "label": "Description",
+                            "name": "description",
+                            "required": false
+                        }
+                    ],
+                    "label": "LossLocation",
+                    "name": "lossLocation",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "object",
+                            "fields": [
+                                {
+                                    "fieldType": "string",
+                                    "label": "FirstName",
+                                    "name": "firstName",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "LastName",
+                                    "name": "lastName",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "MiddleInitial",
+                                    "name": "middleInitial",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "Address1",
+                                    "name": "address1",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "City",
+                                    "name": "city",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "State",
+                                    "name": "state",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "Zip",
+                                    "name": "zip",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "PrimaryPhone",
+                                    "name": "primaryPhone",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "Mobile",
+                                    "name": "mobile",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "Email",
+                                    "name": "email",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "Main",
+                                    "name": "main",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "boolean",
+                                    "label": "DriverIsOwner",
+                                    "name": "driverIsOwner",
+                                    "required": false
+                                }
+                            ],
+                            "label": "Driver",
+                            "name": "driver",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "object",
+                            "fields": [
+                                {
+                                    "fieldType": "string",
+                                    "label": "FirstName",
+                                    "name": "firstName",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "LastName",
+                                    "name": "lastName",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "MiddleInitial",
+                                    "name": "middleInitial",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "Year",
+                                    "name": "year",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "Make",
+                                    "name": "make",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "Model",
+                                    "name": "model",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "boolean",
+                                    "label": "Damaged",
+                                    "name": "damaged",
+                                    "required": false
+                                }
+                            ],
+                            "label": "Vehicle",
+                            "name": "vehicle",
+                            "required": false
+                        }
+                    ],
+                    "label": "Insured",
+                    "name": "insured",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "object",
+                            "fields": [
+                                {
+                                    "fieldType": "string",
+                                    "label": "FirstName",
+                                    "name": "firstName",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "LastName",
+                                    "name": "lastName",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "MiddleInitial",
+                                    "name": "middleInitial",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "Address1",
+                                    "name": "address1",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "City",
+                                    "name": "city",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "State",
+                                    "name": "state",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "Zip",
+                                    "name": "zip",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "PrimaryPhone",
+                                    "name": "primaryPhone",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "Mobile",
+                                    "name": "mobile",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "Email",
+                                    "name": "email",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "Main",
+                                    "name": "main",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "boolean",
+                                    "label": "DriverIsOwner",
+                                    "name": "driverIsOwner",
+                                    "required": false
+                                }
+                            ],
+                            "label": "Driver",
+                            "name": "driver",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "object",
+                            "fields": [
+                                {
+                                    "fieldType": "string",
+                                    "label": "FirstName",
+                                    "name": "firstName",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "LastName",
+                                    "name": "lastName",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "MiddleInitial",
+                                    "name": "middleInitial",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "Year",
+                                    "name": "year",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "Make",
+                                    "name": "make",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "string",
+                                    "label": "Model",
+                                    "name": "model",
+                                    "required": false
+                                },
+                                {
+                                    "fieldType": "boolean",
+                                    "label": "Damaged",
+                                    "name": "damaged",
+                                    "required": false
+                                }
+                            ],
+                            "label": "Vehicle",
+                            "name": "vehicle",
+                            "required": false
+                        }
+                    ],
+                    "label": "Claimant",
+                    "name": "claimant",
+                    "required": false
+                }
+            ],
+            "name": "claims"
+        },
+        {
+            "clientSideProcessing": false,
+            "excludedFields": [
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "string",
+                            "label": "Creator",
+                            "name": "creator",
+                            "required": false
+                        }
+                    ],
+                    "label": "Acl",
+                    "name": "_acl",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "date",
+                            "label": "Lmt",
+                            "name": "lmt",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "date",
+                            "label": "Ect",
+                            "name": "ect",
+                            "required": false
+                        }
+                    ],
+                    "label": "Kmd",
+                    "name": "_kmd",
+                    "required": false
+                }
+            ],
+            "fields": [
+                {
+                    "fieldType": "string",
+                    "label": "Id",
+                    "name": "_id",
+                    "required": false
+                },
+                {
+                    "fieldType": "string",
+                    "label": "PolicyNum",
+                    "name": "policyNum",
+                    "required": false
+                }
+            ],
+            "name": "policies"
+        },
+        {
+            "clientSideProcessing": false,
+            "excludedFields": [
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "string",
+                            "label": "Creator",
+                            "name": "creator",
+                            "required": false
+                        }
+                    ],
+                    "label": "Acl",
+                    "name": "_acl",
+                    "required": false
+                },
+                {
+                    "fieldType": "object",
+                    "fields": [
+                        {
+                            "fieldType": "date",
+                            "label": "Lmt",
+                            "name": "lmt",
+                            "required": false
+                        },
+                        {
+                            "fieldType": "date",
+                            "label": "Ect",
+                            "name": "ect",
+                            "required": false
+                        }
+                    ],
+                    "label": "Kmd",
+                    "name": "_kmd",
+                    "required": false
+                }
+            ],
+            "fields": [
+                {
+                    "fieldType": "string",
+                    "label": "Id",
+                    "name": "_id",
+                    "required": false
+                }
+            ],
+            "name": "States"
+        }
+    ],
+    "kinveyApp": {
+        "id": "9d5622fbfc3c4d95892114bd40ded601",
+        "name": "SafeAuto"
+    },
+    "kinveyAppEnvironment": {
+        "appSecret": "c27847587528433da6b71da7af49dc6a",
+        "id": "kid_ByeZ6xduE",
+        "instanceId": "",
+        "masterSecret": "53eb9c812f1a4a9a98a66d79ab5c13be",
+        "name": "Development"
+    },
+    "name": "DefaultDataProvider",
+    "schemaVersion": "1.0",
+    "serviceUri": "https://baas.kinvey.com",
+    "type": "kinvey-data-provider",
+    "uniqueID": "537ba627-b5be-46b1-9995-50881bda6ff5"
+}

@@ -1,0 +1,18 @@
+/*
+* Add your custom code here.
+* This file and any changes you make to it are preserved every time the app is generated.
+*/
+
+.sacontent{
+    font-size: 1.2rem !important;
+    margin: 0 auto;
+}
+
+#vWarning, #iWarning{
+    font-weight: 700;
+    color: red;
+}
+
+.row{
+    margin:18px 0 12px 0;
+}

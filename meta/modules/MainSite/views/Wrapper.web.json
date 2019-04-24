@@ -1,0 +1,16 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "name": "Wrapper",
+    "platform": "web",
+    "schemaVersion": "1.0",
+    "type": "view",
+    "uniqueID": "805c992a-810b-4b36-bb13-87345e2cb669",
+    "viewType": "custom-code-view"
+}

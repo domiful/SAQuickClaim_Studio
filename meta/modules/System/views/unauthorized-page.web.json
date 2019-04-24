@@ -1,0 +1,24 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "customSections": {
+        "bottom": "bottom-section.component.html",
+        "top": "top-section.component.html"
+    },
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "html": "<p><strong>We could not access the information you requested.</strong> <br> Use the navigation or go to the <a ui-sref=\"home\">Homepage</a>.</p>",
+    "name": "unauthorized-page",
+    "platform": "web",
+    "readonly": false,
+    "schemaVersion": "1.0",
+    "statusCode": false,
+    "title": "FORBIDDEN",
+    "type": "view",
+    "uniqueID": "d3f24cee-0738-4b1d-8a32-bf43e0fac7f7",
+    "viewType": "unauthorized-page"
+}

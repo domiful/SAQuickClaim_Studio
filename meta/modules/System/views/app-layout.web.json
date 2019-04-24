@@ -1,0 +1,224 @@
+{
+    "annotations": {
+        "dataSources": {
+            "name": "dataSourceName"
+        }
+    },
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [
+        {
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "containerUid": "ee223e58-96ff-4d1b-bdbf-77bd9d4043b6",
+            "html": "<div class=\"main-navigation\">\n          <div class=\"row\">\n              <div class=\"menu-container\">\n                <div class=\"menu\">\n                  <ul>\n                    <li class=\"salogo\"><a href=\"/home\" style=\"padding: 0px 0px;\"><img alt=\"\"\n                          src=\"https://www.safeauto.com/images/default-source/Logos/safe-auto-logo.png?sfvrsn=2\"\n                          class=\"salogo\" /></a></li>\n                    <li><a>Insurance</a>\n                      <ul>\n                        <li><span class=\"sub-head\">Vehicle Insurance</span>\n                          <ul>\n                            <li><a href=\"https://www.safeauto.com/auto-insurance-quote\">Get A Quote</a></li>\n                            <li><a href=\"https://www.safeauto.com/info-center\">Car Insurance</a></li>\n                            <li><a href=\"https://www.safeauto.com/motorcycle-insurance\">Motorcycle Insurance</a></li>\n                            <li><a href=\"https://www.safeauto.com/info-center/SR22-insurance\">SR-22</a></li>\n                            <li><a href=\"https://www.safeauto.com/state-insurance\">State Requirements</a></li>\n                            <!--<li><a href=\"#\">Recreational</a></li>\n                  <li><a href=\"#\">Commercial</a></li>-->\n                          </ul>\n                        </li>\n                        <li><span class=\"sub-head\">Property Insurance</span>\n                          <ul>\n                            <li><a href=\"https://www.safeauto.com/products/renters-insurance\">Renters</a></li>\n                            <li><a href=\"https://www.safeauto.com/products/homeowners-insurance\">Homeowners</a></li>\n                            <li><a href=\"https://www.safeauto.com/products/business-insurance\">Business Insurance</a>\n                            </li>\n                            <!--<li><a href=\"#\">R/V</a></li>-->\n                          </ul>\n                        </li>\n                        <li><span class=\"sub-head\">Health Insurance</span>\n                          <ul>\n                            <li><a href=\"https://www.safeauto.com/health-insurance\">Health Insurance</a></li>\n                            <li><a\n                                href=\"https://www.safeauto.com/products/health-insurance/supplemental-health\">Supplemental\n                                Insurance</a></li>\n                            <li><a\n                                href=\"https://www.safeauto.com/products/health-insurance/supplemental-health#dental_insurance\">Dental\n                                Insurance</a></li>\n                            <li><a\n                                href=\"https://www.safeauto.com/products/health-insurance/supplemental-health#accident_insurance\">Accident\n                                Insurance</a></li>\n                            <li><a\n                                href=\"https://www.safeauto.com/products/health-insurance/supplemental-health#life_insurance\">Life\n                                Insurance</a></li>\n                          </ul>\n                        </li>\n                        <li><span class=\"sub-head\">Other Protections</span>\n                          <ul>\n                            <li><a href=\"https://www.safeauto.com/info-center/vehicle_service_plan\">Mechanical\n                                Repair</a></li>\n                            <!--<li><a href=\"#\">Roadside Support</a></li>-->\n                          </ul>\n                        </li>\n                      </ul>\n                    </li>\n                    <li><a>Policy &amp; Claims</a>\n                      <ul>\n                        <li><span class=\"sub-head\">Manage Policy</span>\n                          <ul>\n                            <li><a href=\"https://www.safeauto.com/my-policy\">Manage My Policy</a></li>\n                            <li><a\n                                href=\"https://moderator.safeauto.com/v/2/customer/quickpay#/authentication\">QuickPay</a>\n                            </li>\n                            <li><a href=\"https://www.safeauto.com/automatic-payments\">Automatic Payments</a></li>\n                            <li><a href=\"https://www.safeauto.com/my-policy/insurance-payment-options\">Payment\n                                Options</a></li>\n                            <li><a href=\"https://pm.safeauto.com/login.aspx\">Sign-In To Policy</a></li>\n                          </ul>\n                        </li>\n                        <li><span class=\"sub-head\">SafeAuto Claims</span>\n                          <ul>\n                            <li><a href=\"https://www.safeauto.com/auto-insurance-claims/report-a-claim\">Make a Claim</a>\n                            </li>\n                            <li><a href=\"https://www.safeauto.com/auto-insurance-claims/general-claims-process\">Claims\n                                Process</a></li>\n                            <li><a href=\"https://www.safeauto.com/auto-insurance-claims\">Claims FAQ</a></li>\n                          </ul>\n                        </li>\n                        <li><span class=\"sub-head\">Claims Fraud</span>\n                          <ul>\n                            <!--<li><a href=\"#\">Identifying Fraud</a></li>-->\n                            <li><a href=\"https://www.safeauto.com/auto-insurance-claims/reporting-fraud\">Report Claims\n                                Fraud</a></li>\n                            <!--<li><a href=\"#\">Claims Fraud FAQ</a></li>-->\n                          </ul>\n                        </li>\n                        <li><span class=\"sub-head\">Tools</span>\n                          <ul>\n                            <li><a href=\"https://www.safeauto.com/mobile-app\">SafeAuto Mobile App</a></li>\n                            <li><a href=\"https://www.safeauto.com/resources/mobile-app-help\">Mobile App Help</a></li>\n                            <li><a href=\"https://www.safeauto.com/policybooks\">Download Policy Books</a></li>\n                          </ul>\n                        </li>\n                      </ul>\n                    </li>\n                    <li><a>About Us</a>\n                      <ul>\n                        <li><span class=\"sub-head\">Contact SafeAuto</span>\n                          <ul>\n                            <li><a href=\"https://www.safeauto.com/about/contact-us\">Contact Us</a></li>\n                            <li><a href=\"https://www.safeauto.com/about/customer-service\">Customer Service</a></li>\n                            <li><a href=\"https://www.safeauto.com/about/reviews\">Reviews</a></li>\n                          </ul>\n                        </li>\n                        <li><span class=\"sub-head\">About SafeAuto</span>\n                          <ul>\n                            <li><a href=\"https://www.safeauto.com/about\">About Us</a></li>\n                            <li><a href=\"https://www.safeauto.com/about/customer-service\">Customer Service</a></li>\n                            <li><a href=\"https://www.safeauto.com/about/commercials\">Commercials</a></li>\n                            <li><a href=\"https://www.safeauto.com/about/vintage-commercials\">Vintage Commercials</a>\n                            </li>\n                            <li><a href=\"https://www.safeauto.com/about/newsroom\">Newsroom</a></li>\n                          </ul>\n                        </li>\n                        <li><span class=\"sub-head\">Careers</span>\n                          <ul>\n                            <li><a href=\"https://www.safeauto.com/about/career-opportunities\">SafeAuto Careers</a></li>\n                            <li><a href=\"https://www.safeauto.com/about/career-opportunities/work-for-safeauto\">Work for\n                                SafeAuto</a></li>\n                            <li><a href=\"https://www.safeauto.com/about/career-opportunities/work-in-columbus\">Work in\n                                Columbus</a></li>\n                            <li><a href=\"https://www.safeauto.com/about/career-opportunities/safeauto-benefits\">SafeAuto\n                                Benefits</a></li>\n                            <!--<li><a href=\"https://www.safeauto.com/about/bilingual\">Bilingual Careers</a></li>-->\n                          </ul>\n                        </li>\n                        <li style=\"text-align:center; width:25%; padding-left:5%;\">\n                          <ul>\n                            <img src=\"https://www.safeauto.com/images/default-source/default-album/autoknow.png\"\n                              style=\"padding: 20px;\" alt=\"AutoKnow SafeAuto Insurance Blog Logo\" />\n                            <li id=\"quickpay\" style=\"/* float: left; */\"><a class=\"QuoteButton\"\n                                href=\"http://blog.safeauto.com/\">SafeAuto Blog</a></li>\n                          </ul>\n                        </li>\n                      </ul>\n                    </li>\n                    <li style=\"float:right;\"><a\n                        href=\"https://moderator.safeauto.com/v/2/customer/PolicyManagement/SignIn\">Sign-In</a>\n                      <ul style=\"position: absolute; right: 0px; display: none; opacity: 1;\">\n                        <li><a href=\"https://moderator.safeauto.com/v/2/customer/PolicyManagement/SignIn\">Sign-In to\n                            Account</a></li>\n                        <li><a href=\"https://moderator.safeauto.com/v/2/customer/PolicyManagement/SignUp\">Create Online\n                            Account</a></li>\n                        <li><a href=\"https://moderator.safeauto.com/v/2/customer/PolicyManagement/ResetPassword\">Forgot\n                            Password</a></li>\n                        <li><a href=\"https://www.safeauto.com/mobile-app\">Download Mobile App</a></li>\n                      </ul>\n                    </li>\n                    <li style=\"float:right;\"><a>Espa&ntilde;ol</a>\n                      <ul style=\"position: absolute; right: 0px; display: none; opacity: 1;\">\n                        <li><a href=\"https://www.safeauto.com/espanol\">Obt&eacute;n Una Cotizaci&oacute;n</a></li>\n                        <li><a href=\"https://www.safeauto.com/preguntas-comunes\">Preguntas Comunes</a></li>\n                        <li><a href=\"https://www.safeauto.com/reclamos\">Reclamos</a></li>\n                        <li><a href=\"https://www.safeauto.com/preguntas-comunes-sobre-reclamos\">Preguntas Comunes Sobre\n                            Reclamos</a></li>\n                      </ul>\n                    </li>\n                    <li class=\"quickpay\" style=\"/* float: left; */\"><a class=\"QuoteButton\"\n                        href=\"https://moderator.safeauto.com/v/2/customer/quickpay#/authentication\">Quick Pay</a></li>\n                    <li class=\"quickpay\" style=\"/* float: left; */\"><a class=\"QuoteButton selected\"\n                          href=\"https://moderator.safeauto.com/v/2/customer/quickpay#/authentication\">Quick Claim</a></li>\n                  </ul>\n                </div>\n              </div>\n              \n              <!--<ul class=\"secondary-nav\">\n          <li> <a href=\"tel:8442879715\" class=\"main-number\">1-800-SAFEAUTO<span class=\"hidden-phone\"> (723-3288)</span></a><a href=\"tel:8007233288\" class=\"number-changer\">800-723-3288</a></li>\n          <li class=\"hidden-phone\"> <a href=\"/about/contact-us\" sfref=\"[f669d9a7-009d-4d83-ddaa-000000000002]afea5c6b-bd55-639a-8b8f-ff00004e79cc\">Contact Us</a> </li>\n          <li> <a href=\"/espanol\" sfref=\"[f669d9a7-009d-4d83-ddaa-000000000002]c3855d6b-bd55-639a-8b8f-ff00004e79cc\">Espa&ntilde;ol</a> </li>\n      </ul>\n      <a href=\"/my-policy\" class=\"sign-in-nav button\" sfref=\"[f669d9a7-009d-4d83-ddaa-000000000002]bdd75c6b-bd55-639a-8b8f-ff00004e79cc\">Sign In</a>-->\n              <div class=\"bars\"><a class=\"menu-open\" href=\"#mobile-menu\"> <span class=\"menu-bar\"></span> <span\n                    class=\"menu-bar\"></span> <span class=\"menu-bar\"></span> </a></div>\n              <a class=\"menu-open\" href=\"#mobile-menu\">\n                Menu\n              </a>\n\n\n\n\n          </div>\n        </div>",
+            "id": "customhtml0",
+            "schemaVersion": "1.0",
+            "type": "custom-html",
+            "uniqueID": "97278e10-6b0a-4b1d-9ddf-a9881f054252"
+        },
+        {
+            "containerUid": "c3ab3207-f259-4eb7-995f-678d19906658",
+            "id": "contentplaceholder0",
+            "schemaVersion": "1.0",
+            "type": "content-placeholder",
+            "uniqueID": "fb80b972-34b3-40ca-b973-2783b6bacf70"
+        },
+        {
+            "alt": "",
+            "annotations": {
+                "id": "componentIdentifier"
+            },
+            "containerUid": "c76fb8e0-2e45-40fc-b789-5582f64891ad",
+            "id": "fullwidth",
+            "model": "",
+            "schemaVersion": "1.0",
+            "src": "footer_desktop.png",
+            "type": "image",
+            "uniqueID": "8216d06e-284a-4625-a07b-1a71812311f1"
+        }
+    ],
+    "dataSources": [],
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "hidden": false,
+    "name": "app-layout",
+    "platform": "web",
+    "readonly": false,
+    "rows": [
+        {
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "authorization": {
+                "allowedRoles": []
+            },
+            "boxStyles": {
+                "margin": "",
+                "padding": "",
+                "size": {
+                    "height": "px",
+                    "width": "px"
+                }
+            },
+            "classList": "",
+            "cols": [
+                {
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "authorization": {
+                        "allowedRoles": []
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "px",
+                            "width": "px"
+                        }
+                    },
+                    "breakpoints": {
+                        "lg": 12,
+                        "sm": 6
+                    },
+                    "classList": "",
+                    "hidden": {
+                        "lg": false,
+                        "md": false,
+                        "sm": false,
+                        "xs": false
+                    },
+                    "rows": [],
+                    "schemaVersion": "1.0",
+                    "type": "col",
+                    "uniqueID": "ee223e58-96ff-4d1b-bdbf-77bd9d4043b6"
+                }
+            ],
+            "schemaVersion": "1.0",
+            "type": "row",
+            "uniqueID": "90437523-6b12-44c6-8d04-2a32a3ad6d0c"
+        },
+        {
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "authorization": {
+                "allowedRoles": []
+            },
+            "boxStyles": {
+                "margin": "",
+                "padding": "",
+                "size": {
+                    "height": "px",
+                    "width": "px"
+                }
+            },
+            "classList": "ks-header-content-wrapper",
+            "cols": [
+                {
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "authorization": {
+                        "allowedRoles": []
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "px",
+                            "width": "px"
+                        }
+                    },
+                    "breakpoints": {
+                        "lg": 12,
+                        "xs": 10
+                    },
+                    "classList": "ks-content k-content",
+                    "hidden": {
+                        "lg": false,
+                        "md": false,
+                        "sm": false,
+                        "xs": false
+                    },
+                    "rows": [],
+                    "schemaVersion": "1.0",
+                    "type": "col",
+                    "uniqueID": "c3ab3207-f259-4eb7-995f-678d19906658"
+                }
+            ],
+            "schemaVersion": "1.0",
+            "type": "row",
+            "uniqueID": "76a58461-247d-4dc4-a269-2754d93e0dbf"
+        },
+        {
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "authorization": {
+                "allowedRoles": []
+            },
+            "boxStyles": {
+                "margin": "",
+                "padding": "",
+                "size": {
+                    "height": "px",
+                    "width": "px"
+                }
+            },
+            "classList": "",
+            "cols": [
+                {
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "authorization": {
+                        "allowedRoles": []
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "px",
+                            "width": "px"
+                        }
+                    },
+                    "breakpoints": {
+                        "lg": 12,
+                        "sm": 6
+                    },
+                    "classList": "fullwidth",
+                    "hidden": {
+                        "lg": false,
+                        "md": false,
+                        "sm": false,
+                        "xs": false
+                    },
+                    "rows": [],
+                    "schemaVersion": "1.0",
+                    "type": "col",
+                    "uniqueID": "c76fb8e0-2e45-40fc-b789-5582f64891ad"
+                }
+            ],
+            "schemaVersion": "1.0",
+            "type": "row",
+            "uniqueID": "459407a7-27f6-4c40-8a3e-1e373cc535a9"
+        }
+    ],
+    "schemaVersion": "1.0",
+    "type": "view",
+    "uniqueID": "2cf06ec5-6e63-489c-b662-ed6e4047a963",
+    "viewType": "app-layout"
+}

@@ -1,0 +1,18 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [],
+    "description": "",
+    "moduleType": "default",
+    "name": "Policies",
+    "order": 2,
+    "schemaVersion": "1.0",
+    "thumbnail": {
+        "background": "#d60000",
+        "color": "#ffffff",
+        "icon": "fa-drivers-license-o"
+    },
+    "type": "module",
+    "uniqueID": "095072dd-82f2-46a6-993c-463905c7de8f"
+}

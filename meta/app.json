@@ -1,0 +1,50 @@
+{
+    "authorization": {
+        "roles": []
+    },
+    "build": {
+        "debug": {
+            "baseHref": "/"
+        },
+        "release": {
+            "aot": true,
+            "baseHref": "/"
+        }
+    },
+    "children": [],
+    "defaultLangaugeCulture": "en-US",
+    "defaultLanguageLabel": "English",
+    "description": "",
+    "layout": {},
+    "mobileNavigation": [
+        {
+            "displayName": "Home",
+            "module": "System",
+            "type": "tab",
+            "view": "home"
+        }
+    ],
+    "mobileOfflineSupport": false,
+    "mobileTheme": "light",
+    "name": "SafeAutoQuickClaim",
+    "ripple": false,
+    "schemaVersion": "1.0.9",
+    "startupViewInfo": {},
+    "targetFramework": "Angular",
+    "theme": "nova",
+    "type": "app",
+    "uniqueID": "1678bea6-f6e8-4569-8168-7d956fa4096d",
+    "webNavigation": [
+        {
+            "displayName": "Wrapper",
+            "module": "MainSite",
+            "view": "Wrapper"
+        },
+        {
+            "displayName": "QuickClaimSimple",
+            "module": "Claims",
+            "view": "QuickClaimSimple"
+        }
+    ],
+    "webOfflineSupport": false
+}

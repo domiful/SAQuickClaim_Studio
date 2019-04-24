@@ -1,0 +1,574 @@
+{
+  "landing-page": {
+    "noModulesTitle": "There is nothing here yet.",
+    "noModulesMessage": "Modules are the functional components of a web application. Start by adding your first Module in Kinvey Studio."
+  },
+  "language": {
+    "label": "English",
+    "culture": "en-US",
+    "order": 0
+  },
+  "kendo": {
+    "calendar": {
+      "today": "Today"
+    },
+    "datepicker": {
+      "today": "Today",
+      "toggle": "Toggle calendar"
+    },
+    "grid": {
+      "groupPanelEmpty": "Drag a column header and drop it here to group by that column",
+      "noRecords": "No records available.",
+      "pagerFirstPage": "Go to the first page",
+      "pagerPreviousPage": "Go to the previous page",
+      "pagerNextPage": "Go to the next page",
+      "pagerLastPage": "Go to the last page",
+      "pagerPage": "Page",
+      "pagerOf": "of",
+      "pagerItems": "items",
+      "pagerItemsPerPage": "items per page",
+      "filterEqOperator": "Is equal to",
+      "filterNotEqOperator": "Is not equal to",
+      "filterIsNullOperator": "Is null",
+      "filterIsNotNullOperator": "Is not null",
+      "filterIsEmptyOperator": "Is empty",
+      "filterIsNotEmptyOperator": "Is not empty",
+      "filterStartsWithOperator": "Starts with",
+      "filterContainsOperator": "Contains",
+      "filterNotContainsOperator": "Does not contain",
+      "filterEndsWithOperator": "Ends with",
+      "filterGteOperator": "Is greater than or equal to",
+      "filterGtOperator": "Is greater than",
+      "filterLteOperator": "Is less than or equal to",
+      "filterLtOperator": "Is less than",
+      "filterIsTrue": "is true",
+      "filterIsFalse": "is false",
+      "filterBooleanAll": "(All)",
+      "filterAfterOrEqualOperator": "Is after or equal to",
+      "filterAfterOperator": "Is after",
+      "filterBeforeOperator": "Is before",
+      "filterBeforeOrEqualOperator": "Is before or equal to",
+      "filterFilterButton": "Filter",
+      "filterClearButton": "Clear",
+      "filterAndLogic": "And",
+      "filterOrLogic": "Or"
+    },
+    "slider": {
+      "increment": "Increase value",
+      "decrement": "Decrease value"
+    },
+    "timepicker": {
+      "accept": "Set",
+      "acceptLabel": "Set",
+      "cancel": "Cancel",
+      "cancelLabel": "Cancel",
+      "now": "Now",
+      "nowLabel": "Now",
+      "toggle": "Toggle time list"
+    }
+  },
+  "modules": {
+    "Claims": {
+      "label": "Claims",
+      "description": "",
+      "views": {
+        "QuickClaim": {
+          "label": "QuickClaim",
+          "components": {
+            "tabstrip0": {
+              "items": {
+                "91dd00fe-8974-401b-a76e-e3826185925f": {
+                  "text": "Start Claim",
+                  "components": {
+                    "label3": {
+                      "text": "Report a Claim"
+                    },
+                    "label0": {
+                      "text": "Was Anyone Injured?"
+                    },
+                    "booleanradiobuttonlist0": {
+                      "trueText": "Yes",
+                      "falseText": "No"
+                    },
+                    "iWarning": {
+                      "text": "Please call 1-800-723-3288 where we can better assist you."
+                    },
+                    "label1": {
+                      "text": "Were there more than 2 vehicles involved?"
+                    },
+                    "booleanradiobuttonlist1": {
+                      "trueText": "Yes",
+                      "falseText": "No"
+                    },
+                    "vWarning": {
+                      "text": "Please call 1-800-723-3288 where we can better assist you."
+                    },
+                    "label4": {
+                      "text": "Policy Search"
+                    },
+                    "label5": {
+                      "text": "Policy #"
+                    },
+                    "policy": {
+                      "placeholder": ""
+                    },
+                    "label6": {
+                      "text": "Loss Date"
+                    },
+                    "label7": {
+                      "text": "Loss Time"
+                    },
+                    "button0": {
+                      "content": "Search"
+                    },
+                    "button1": {
+                      "content": "Reset"
+                    }
+                  }
+                },
+                "678b195b-98c7-47a0-b7ae-1d96d552c4ba": {
+                  "text": "Loss Details",
+                  "components": {
+                    "label8": {
+                      "text": "Loss Details"
+                    },
+                    "label9": {
+                      "text": "Loss Cause"
+                    },
+                    "label19": {
+                      "text": "*"
+                    },
+                    "label10": {
+                      "text": "What Happened?"
+                    },
+                    "textarea0": {
+                      "placeholder": ""
+                    },
+                    "label11": {
+                      "text": "Loss Location"
+                    },
+                    "label12": {
+                      "text": "Address"
+                    },
+                    "textbox1": {
+                      "placeholder": ""
+                    },
+                    "textbox2": {
+                      "placeholder": ""
+                    },
+                    "label14": {
+                      "text": "City"
+                    },
+                    "textbox3": {
+                      "placeholder": ""
+                    },
+                    "label15": {
+                      "text": "County"
+                    },
+                    "textbox4": {
+                      "placeholder": ""
+                    },
+                    "label16": {
+                      "text": "State"
+                    },
+                    "label17": {
+                      "text": "Zip"
+                    },
+                    "textbox6": {
+                      "placeholder": ""
+                    },
+                    "label18": {
+                      "text": "Location Description"
+                    },
+                    "textbox5": {
+                      "placeholder": ""
+                    },
+                    "button2": {
+                      "content": "Back"
+                    },
+                    "button3": {
+                      "content": "Next"
+                    }
+                  }
+                },
+                "e8493f8c-6736-480d-acfe-d3536bce29db": {
+                  "text": "Insured Details",
+                  "components": {
+                    "label13": {
+                      "text": "Insured Details"
+                    },
+                    "label20": {
+                      "text": "First Name"
+                    },
+                    "textbox7": {
+                      "placeholder": ""
+                    },
+                    "label21": {
+                      "text": "Address"
+                    },
+                    "textbox8": {
+                      "placeholder": ""
+                    },
+                    "label22": {
+                      "text": "Middle Name"
+                    },
+                    "textbox9": {
+                      "placeholder": ""
+                    },
+                    "label23": {
+                      "text": "City"
+                    },
+                    "textbox10": {
+                      "placeholder": ""
+                    },
+                    "label24": {
+                      "text": "Last Name"
+                    },
+                    "label39": {
+                      "text": "*"
+                    },
+                    "textbox11": {
+                      "placeholder": ""
+                    },
+                    "label25": {
+                      "text": "State"
+                    },
+                    "label26": {
+                      "text": "Primary Phone"
+                    },
+                    "label27": {
+                      "text": "Mobile Phone"
+                    },
+                    "label28": {
+                      "text": "E-mail"
+                    },
+                    "emailtextbox0": {
+                      "placeholder": "john.doe@example.net"
+                    },
+                    "label29": {
+                      "text": "Best to Reach You At"
+                    },
+                    "label30": {
+                      "text": "Insured Vehicle & Driver Details"
+                    },
+                    "label31": {
+                      "text": "Is the Driver the same as the Owner?"
+                    },
+                    "label65": {
+                      "text": "*"
+                    },
+                    "booleanradiobuttonlist2": {
+                      "trueText": "Yes",
+                      "falseText": "No"
+                    },
+                    "label32": {
+                      "text": "First Name"
+                    },
+                    "textbox12": {
+                      "placeholder": ""
+                    },
+                    "label33": {
+                      "text": "Year"
+                    },
+                    "textbox13": {
+                      "placeholder": ""
+                    },
+                    "label34": {
+                      "text": "Middle Name"
+                    },
+                    "textbox14": {
+                      "placeholder": ""
+                    },
+                    "label35": {
+                      "text": "Make"
+                    },
+                    "textbox15": {
+                      "placeholder": ""
+                    },
+                    "label36": {
+                      "text": "Last Name"
+                    },
+                    "label40": {
+                      "text": "*"
+                    },
+                    "textbox16": {
+                      "placeholder": ""
+                    },
+                    "label37": {
+                      "text": "Model"
+                    },
+                    "textbox17": {
+                      "placeholder": ""
+                    },
+                    "label38": {
+                      "text": "Was the Vehicle Damaged?"
+                    },
+                    "label66": {
+                      "text": "*"
+                    },
+                    "booleanradiobuttonlist3": {
+                      "trueText": "Yes",
+                      "falseText": "No"
+                    },
+                    "button4": {
+                      "content": "Back"
+                    },
+                    "button5": {
+                      "content": "Next"
+                    }
+                  }
+                },
+                "c182b786-3efb-43cb-a524-3abfeb32bc24": {
+                  "text": "Claimant Details",
+                  "components": {
+                    "label41": {
+                      "text": "Claimant Details"
+                    },
+                    "label42": {
+                      "text": "First Name"
+                    },
+                    "textbox18": {
+                      "placeholder": ""
+                    },
+                    "label43": {
+                      "text": "Address"
+                    },
+                    "textbox19": {
+                      "placeholder": ""
+                    },
+                    "label44": {
+                      "text": "Middle Name"
+                    },
+                    "textbox20": {
+                      "placeholder": ""
+                    },
+                    "label45": {
+                      "text": "City"
+                    },
+                    "textbox21": {
+                      "placeholder": ""
+                    },
+                    "label46": {
+                      "text": "Last Name"
+                    },
+                    "label64": {
+                      "text": "*"
+                    },
+                    "textbox22": {
+                      "placeholder": ""
+                    },
+                    "label47": {
+                      "text": "State"
+                    },
+                    "textbox23": {
+                      "placeholder": ""
+                    },
+                    "label48": {
+                      "text": "Primary Phone"
+                    },
+                    "label49": {
+                      "text": "Mobile Phone"
+                    },
+                    "label50": {
+                      "text": "E-mail"
+                    },
+                    "emailtextbox1": {
+                      "placeholder": "john.doe@example.net"
+                    },
+                    "label51": {
+                      "text": "Best Way to Reach You"
+                    },
+                    "label52": {
+                      "text": "Claimant Vehicle & Driver Details"
+                    },
+                    "label53": {
+                      "text": "Is the Driver the same as the Owner?"
+                    },
+                    "label61": {
+                      "text": "*"
+                    },
+                    "booleanradiobuttonlist4": {
+                      "trueText": "Yes",
+                      "falseText": "No"
+                    },
+                    "label54": {
+                      "text": "First Name"
+                    },
+                    "textbox24": {
+                      "placeholder": ""
+                    },
+                    "label55": {
+                      "text": "Year"
+                    },
+                    "textbox25": {
+                      "placeholder": ""
+                    },
+                    "label56": {
+                      "text": "Middle Name"
+                    },
+                    "textbox26": {
+                      "placeholder": ""
+                    },
+                    "label57": {
+                      "text": "Make"
+                    },
+                    "textbox27": {
+                      "placeholder": ""
+                    },
+                    "label58": {
+                      "text": "Last Name"
+                    },
+                    "label63": {
+                      "text": "*"
+                    },
+                    "textbox28": {
+                      "placeholder": ""
+                    },
+                    "label59": {
+                      "text": "Model"
+                    },
+                    "textbox29": {
+                      "placeholder": ""
+                    },
+                    "label60": {
+                      "text": "Was the vehicle damaged?"
+                    },
+                    "label62": {
+                      "text": "*"
+                    },
+                    "booleanradiobuttonlist5": {
+                      "trueText": "Yes",
+                      "falseText": "No"
+                    },
+                    "button6": {
+                      "content": "Back"
+                    },
+                    "button7": {
+                      "content": "Next"
+                    }
+                  }
+                },
+                "e0836b6e-8021-4a94-bb30-b7a013db9a9b": {
+                  "text": "Summary",
+                  "components": {
+                    "button8": {
+                      "content": "Submit"
+                    }
+                  }
+                },
+                "327cba41-af04-4451-8493-bfb343163bcf": {
+                  "text": "Finished",
+                  "components": {}
+                }
+              }
+            }
+          }
+        },
+        "QuickClaimSimple": {
+          "label": "QuickClaimSimple",
+          "title": "Quick Claim",
+          "columns": {
+            "_id": "Id",
+            "manyInjuries": "ManyInjuries",
+            "manyVehicles": "ManyVehicles",
+            "lossCause": "LossCause",
+            "statement": "Statement",
+            "lossLocation": "LossLocation",
+            "insured": "Insured",
+            "claimant": "Claimant"
+          },
+          "groups": {
+            "a5f12eae-9a93-4f2a-824f-0c68c04294f2": {
+              "name": "Default Group",
+              "fields": {
+                "_id": "Id",
+                "manyInjuries": "ManyInjuries",
+                "manyVehicles": "ManyVehicles",
+                "lossCause": "LossCause",
+                "statement": "Statement",
+                "lossLocation": "LossLocation",
+                "insured": "Insured",
+                "claimant": "Claimant"
+              },
+              "components": {
+                "ctl1": {
+                  "placeholder": ""
+                },
+                "ctl3": {
+                  "placeholder": ""
+                },
+                "ctl5": {
+                  "placeholder": ""
+                },
+                "ctl7": {
+                  "placeholder": ""
+                },
+                "ctl9": {
+                  "placeholder": ""
+                },
+                "ctl11": {
+                  "placeholder": ""
+                },
+                "ctl13": {
+                  "placeholder": ""
+                },
+                "ctl15": {
+                  "placeholder": ""
+                }
+              }
+            }
+          },
+          "newTitle": "New",
+          "editTitle": "Edit",
+          "editMessages": {
+            "back": "Back",
+            "cancel": "Cancel",
+            "create": "New",
+            "destroy": "Delete",
+            "edit": "Edit",
+            "save": "Save"
+          }
+        }
+      }
+    },
+    "MainSite": {
+      "label": "MainSite",
+      "description": "",
+      "views": {
+        "Wrapper": {
+          "label": "Wrapper"
+        }
+      }
+    },
+    "Policies": {
+      "label": "Policies",
+      "description": "",
+      "views": {}
+    },
+    "System": {
+      "label": "System",
+      "description": "The System Module contains the App Layout, Landing Page, Login, and Unauthorized Page system views",
+      "views": {
+        "app-layout": {
+          "label": "app-layout",
+          "components": {}
+        },
+        "home": {
+          "label": "home"
+        },
+        "landing-page": {
+          "label": "landing-page"
+        },
+        "login": {
+          "label": "login"
+        },
+        "register": {
+          "label": "register"
+        },
+        "unauthorized-page": {
+          "label": "unauthorized-page"
+        }
+      }
+    }
+  }
+}

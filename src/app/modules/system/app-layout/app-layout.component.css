@@ -1,0 +1,1399 @@
+/*
+* Add your custom code here.
+* This file and any changes you make to it are preserved every time the app is generated.
+*/
+    .overflow-wrapper {
+      overflow-y: hidden;
+      margin-top: 0px;
+    }
+    .fullwidth, #fullwidth{
+        width: 100% !important;
+    }
+
+    ks-image>img{
+        width:100%;
+    }
+    .main-navigation {
+      height: 119px;
+    }
+
+    .number-changer {
+      display: none;
+    }
+
+    li#social_01 {
+      margin-left: 0px;
+    }
+
+    @media (max-width: 979px) and (min-width: 768px) {
+
+      .footer .span2 {
+        width: 120px;
+      }
+
+      .footer .span6 {
+        width: 300px;
+      }
+
+      .mypolicy ::-webkit-input-placeholder {
+        font-size: 12px;
+      }
+
+      .mypolicy ::-moz-placeholder {
+        font-size: 12px;
+      }
+
+      .mypolicy :-ms-input-placeholder {
+        font-size: 12px;
+      }
+
+      .mypolicy :-moz-placeholder {
+        font-size: 12px;
+      }
+
+    }
+
+    @media (max-width: 767px) {
+
+
+      .main-navigation {
+        height: 50px;
+      }
+
+      .menu-container {
+        display: none;
+      }
+
+      .footer .span2 {
+        display: none;
+      }
+
+
+      .footer .span6.right {
+        display: block !important;
+        padding-left: 0px !important;
+        border-left: 0px solid #666 !important;
+        margin-left: 10px !important;
+        float: right;
+        text-align: center;
+      }
+
+      ul.social-icons {
+        margin-top: 20px;
+      }
+
+
+
+    }
+    .footer {
+      background: #333 !important;
+      display: block !important;
+    }
+
+    .footer .social-icons {
+      float: none !important;
+      text-align: right;
+      margin-left: auto;
+      margin-right: auto;
+      display: inline-block;
+    }
+
+
+    .footer .copyright {
+      margin-top: 30px;
+    }
+
+    .footer .copyright p {
+      font-size: 12px;
+    }
+
+    .footer .span6.right {
+      padding-left: 30px;
+      border-left: 1px solid #666;
+      margin-left: 20px !important;
+      float: right;
+    }
+
+    .main-navigation a.menu-open {
+      color: #cb262b;
+      float: none;
+      position: absolute;
+      right: 0;
+      text-indent: -9999px;
+    }
+
+    span.menu-bar {
+      background: #cb262b;
+      display: block;
+      width: 30px;
+      float: none;
+      margin: 8px 0;
+      height: 3px;
+    }
+
+    @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+    body {
+      font-family: 'Lato', sans-serif;
+
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    a {
+      color: #333;
+    }
+
+    span.sub-head {
+      color: #cb2b26;
+      font-size: 16px;
+      margin-bottom: 0px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: .02em;
+    }
+
+    .description {
+      width: 80%;
+      margin: 50px auto;
+    }
+
+    /* ––––––––––––––––––––––––––––––––––––––––––––––––––
+megamenu.js STYLE STARTS HERE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+    /* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Screen style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .menu-container {
+      width: 100%;
+      margin: 0 auto;
+      background: #ffffff;
+    }
+
+    .menu-mobile {
+      display: none;
+      padding: 20px;
+    }
+
+    .menu-mobile:after {
+      content: "\f394";
+      font-family: "Ionicons";
+      font-size: 1.5rem;
+      padding: 0;
+      float: right;
+      position: relative;
+      top: 50%;
+      transform: translateY(-25%);
+    }
+
+    .menu-dropdown-icon:before {
+      content: "\f489";
+      font-family: "Ionicons";
+      display: none;
+      cursor: pointer;
+      float: right;
+      padding: 1.5em 2em;
+      background: #fff;
+      color: #333;
+    }
+
+    .menu>ul {
+      margin: 0 auto;
+      width: 100%;
+      list-style: none;
+      padding: 0;
+      position: relative;
+
+      /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
+
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    .menu>ul:before,
+    .menu>ul:after {
+      content: "";
+      display: table;
+    }
+
+    .menu>ul:after {
+      clear: both;
+    }
+
+    .menu>ul>li {
+      float: left;
+      background: #ffffff;
+      padding: 20px 0;
+      margin: 0;
+    }
+
+    .menu>ul>li a {
+      text-decoration: none;
+      padding: 25px 20px 24px;
+      margin: 0 auto;
+      display: block;
+      font-size: 1.2em;
+      color: #333333;
+    }
+
+    .menu>ul>li:hover {
+      background: #f0f0f0;
+      height: auto;
+      padding-bottom: 23px;
+    }
+
+    .menu>ul>li>ul {
+      display: none;
+      width: 100%;
+      background: #f0f0f0;
+      padding: 30px;
+      position: absolute;
+      z-index: 99;
+      left: 0;
+      margin: 23px 0px;
+      list-style: none;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin-left: 30px;
+    }
+
+    .menu>ul>li>ul:before,
+    .menu>ul>li>ul:after {
+      content: "";
+      display: table;
+    }
+
+    .menu>ul>li>ul:after {
+      clear: both;
+    }
+
+    .menu>ul>li>ul>li {
+      margin: 0 10px;
+      padding-bottom: 0;
+      list-style: none;
+      width: calc(24% - 4vw);
+      background: none;
+      float: left;
+    }
+
+    .menu>ul>li>ul>li a {
+      color: blue;
+      padding: .75em 0;
+      width: auto;
+      display: block;
+      border-bottom: 0px solid #ccc;
+      font-size: 1.1em;
+    }
+
+
+
+    .menu>ul>li>ul>li>ul>li {
+      float: left;
+      width: 100%;
+      padding: 0px 0;
+      margin: 0;
+      font-size: 1em;
+      margin: 0;
+      padding-bottom: 0;
+      list-style: none;
+    }
+
+    .menu>ul>li>ul>li a {
+      border: 0;
+      position: relative;
+      color: #555;
+      text-decoration: none;
+    }
+
+    .menu>ul>li>ul>li a:before {
+      content: "";
+      position: absolute;
+      width: 50%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #cb262b;
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+    }
+
+    .menu>ul>li>ul>li a:hover:before {
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+
+    .menu>ul>li>ul>li>ul {
+      display: block;
+      padding: 0;
+      margin: 12px 0 0;
+      list-style: none;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    .menu>ul>li>ul>li>ul:before,
+    .menu>ul>li>ul>li>ul:after {
+      content: "";
+      display: table;
+    }
+
+    .menu>ul>li>ul>li>ul:after {
+      clear: both;
+    }
+
+    .menu>ul>li>ul>li>ul>li {
+      float: left;
+      width: 100%;
+      padding: 0px 0;
+      margin: 0;
+      font-size: 1em;
+    }
+
+    .menu>ul>li>ul>li>ul>li a {
+      border: 0;
+      position: relative;
+      color: #555;
+      text-decoration: none;
+    }
+
+    .menu>ul>li>ul>li>ul>li a:before {
+      content: "";
+      position: absolute;
+      width: 50%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #cb262b;
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+    }
+
+    .menu>ul>li>ul>li>ul>li a:hover:before {
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+
+    .menu>ul>li>ul>li>ul>li#quickpay a:before {
+      content: "";
+      position: absolute;
+      width: 0%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: none;
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.0s ease-in-out 0s;
+      transition: all 0.0s ease-in-out 0s;
+    }
+
+    .menu>ul>li>ul>li>ul>li#quickpay a:hover:before {
+      visibility: visible;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+    }
+
+    .menu>ul>li>ul.normal-sub {
+      width: 250px;
+      left: auto;
+      padding: 10px 20px;
+    }
+
+    .menu>ul>li>ul.normal-sub>li {
+      width: 100%;
+      margin: 0 20px;
+    }
+
+    .menu>ul>li>ul.normal-sub>li a {
+      border: 0;
+      padding: 1em 0;
+    }
+
+    li .salogo:hover {
+      padding-bottom: 0px;
+    }
+
+    .menu>ul>li a.QuoteButton {
+      border-radius: 25px;
+      border: #cb2b26 1px solid;
+      margin: 10px 10px 5px;
+      padding: 12px 30px;
+    }
+
+    .menu>ul>li.quickpay {
+      background: none;
+    }
+
+    a.QuoteButton:hover,
+    a.QuoteButton.selected {
+      background: #cb2b26;
+      color: white;
+    }
+
+    img.salogo {
+      width: 0%;
+      margin: 0px auto;
+      display: block;
+    }
+
+    a img.salogo {
+      width: 60%;
+      margin: 0 auto;
+
+      position: relative;
+      opacity: 1;
+      transition: .5s ease;
+    }
+
+
+    a img.salogo:hover {
+      opacity: 1;
+      transform: scale(1.25, 1.25)
+    }
+
+    .menu>ul>li.salogo {
+      background: #cb2b26;
+      width: 160px;
+      height: auto;
+      margin: 0px auto;
+      padding: 29px 0px;
+      margin-left: 30px;
+    }
+
+    @media only screen and (max-width: 1200px) {
+      .menu>ul>li.salogo {
+        margin-left: 10px;
+      }
+
+      .menu>ul>li>ul {
+        margin-left: 10px;
+      }
+    }
+
+    @media only screen and (max-width: 1200px) {}
+
+    @media only screen and (max-width: 850px) {
+      .quickpay {
+        display: none;
+      }
+
+    }
+
+    /* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Mobile style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+    @media only screen and (max-width: 767px) {
+      .menu-container {
+        width: 100%;
+      }
+
+      .menu-mobile {
+        display: none;
+      }
+
+      .menu-dropdown-icon:before {
+        display: block;
+      }
+
+      .menu>ul {
+        display: none;
+      }
+
+      .menu>ul>li {
+        width: 100%;
+        float: none;
+        display: block;
+      }
+
+      .menu>ul>li a {
+        padding: 1.5em;
+        width: 100%;
+        display: block;
+      }
+
+      .menu>ul>li>ul {
+        position: relative;
+      }
+
+      .menu>ul>li>ul.normal-sub {
+        width: 100%;
+      }
+
+      .menu>ul>li>ul>li {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+      }
+
+      .menu>ul>li>ul>li:first-child {
+        margin: 0;
+      }
+
+      .menu>ul>li>ul>li>ul {
+        position: relative;
+      }
+
+      .menu>ul>li>ul>li>ul>li {
+        float: none;
+      }
+
+      .menu .show-on-mobile {
+        display: block;
+      }
+
+      .menu>ul>li.salogo {
+        display: none;
+      }
+    }
+
+    .mm-list>li>a,
+    .mm-list>li>span {
+      padding-left: 40px !important;
+    }
+
+    #mobile-header {
+      background: #cb2b26;
+      margin-left: -20px;
+    }
+
+    .btn-fc {
+      height: 100%;
+      width: 50%;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-align: center;
+      border-style: solid;
+      border-width: 1px;
+      letter-spacing: 1.2px;
+      display: block;
+      padding: 20px;
+      margin: 20px;
+      margin-top: 30px;
+      color: #fff;
+      font-family: 'Lato', sans-serif;
+      -moz-transition: background 0.25s, color 0.25s, font-weight 0.25s;
+      -o-transition: background 0.25s, color 0.25s, font-weight 0.25s;
+      -webkit-transition: background 0.25s, color 0.25s, font-weight 0.25s;
+      transition: background 0.25s, color 0.25s, font-weight 0.25s;
+      background: #004b74;
+      border: none;
+      display: inline-block;
+      text-shadow: none;
+      text-decoration: none;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      border-radius: 50px;
+    }
+
+    .content.wrapper.bcrumbs {
+      font-size: 15px;
+      background: none;
+      border: none;
+      box-shadow: none;
+      position: static;
+      margin-bottom: 0 !important;
+    }
+
+
+    p.body {
+
+      font-size: 16px;
+      line-height: 2em;
+      font-weight: 400;
+      padding: 10px 0px;
+    }
+
+
+    h2.information {
+      font-size: 30px;
+      line-height: 1.5em;
+      font-weight: 300;
+      padding: 20px 0px 10px 0px;
+      text-transform: none;
+      color: #cb2b26;
+    }
+
+    .hero {
+      height: 35vh;
+      background-image: url(/images/default-source/page-headers/2-car-crash.jpg) !important;
+      width: 100%;
+      max-height: 400px;
+      background-position: center center !important;
+
+    }
+
+    .lt-ie9 .hero {
+      max-height: 500px;
+    }
+
+    .hero .quote-circle2 {
+      z-index: 500;
+      width: 100% !important;
+      padding: 20px 0px !important;
+      margin: 70px auto 0;
+      position: relative;
+      text-align: center !important;
+      background: rgba(0, 0, 0, .5) !important;
+    }
+
+    .lt-ie9 .hero .quote-circle2 {
+      background-image: none;
+    }
+
+
+    .hero .quote-circle2 a {
+      text-decoration: none;
+    }
+
+    .hero .fa {
+      margin-left: 5px;
+      font-size: 12px;
+    }
+
+    .hero .quote-circle2 input[type="number"] {
+      background: #fff;
+    }
+
+    .hero-subhead {
+      font-size: 48px;
+      line-height: 32px;
+      color: #fff;
+      letter-spacing: .05em;
+      margin-bottom: 25px;
+
+    }
+
+    .policy-buttons {
+      position: absolute;
+      bottom: 0px;
+      background: #f7f7f7;
+      height: 45px;
+      width: 100%;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .policy-buttons-wrapper {
+      margin: 0 auto;
+      width: 360px;
+    }
+
+    .policy-buttons a {
+      width: 165px;
+      border-left: 1px solid #e0e0e0;
+      border-right: 1px solid #e0e0e0;
+      display: block;
+      float: left;
+      text-align: center;
+      padding: 12px 0;
+      text-decoration: none;
+    }
+
+    .policy-buttons a:first-of-type {
+      border-left: 1px solid #e0e0e0;
+      border-right: none;
+    }
+
+    .call-us {
+      margin-bottom: 10px;
+    }
+
+    .call-us:hover {
+      background: #509EC0;
+      color: #FFF;
+    }
+
+    .quote-circle2 h1 {
+      font-size: 4em !important;
+      font-weight: 300 !important;
+      margin-top: 15px;
+      margin-left: -15px;
+      margin-right: -15px;
+      margin-bottom: 15px;
+      padding: 5px 15px;
+      color: #FFF;
+      text-transform: capitalize;
+      text-align: center;
+      line-height: 1.25;
+      font-family: 'Lato', Helvetica, sans-serif;
+    }
+
+    .hero .quote-circle2 button {
+      background: #cb262b;
+      border: none;
+      color: #fff;
+      margin: 0 auto;
+      width: 206px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .hero .quote-circle2 button:hover,
+    .hero .quote-circle2 button:active {
+      background: #fff;
+      color: #cb262b;
+    }
+
+    .hero .quote-circle2 a {
+      color: #fff;
+
+    }
+
+    .hero .quote-circle2 a:hover {
+      color: #cb262b;
+
+    }
+
+    .highlight h2,
+    .highlight h1 {
+      font-size: 20px;
+      text-transform: capitalize;
+      color: #CB262B;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      line-height: 1.6;
+    }
+
+    input[type=number]::-webkit-outer-spin-button,
+    input[type=number]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+
+    .greyrow {
+      background: #cb2b26;
+      /* Old browsers */
+      background: -moz-linear-gradient(left, #cb2b26 0%, #f24000 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, #cb2b26 0%, #f24000 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right, #cb2b26 0%, #f24000 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cb2b26', endColorstr='#f24000', GradientType=1);
+      /* IE6-9 */
+    }
+
+    .shaderow {
+      background: #fff;
+
+    }
+
+    .coverage-icon {
+      text-align: center;
+    }
+
+    img.coverage-circles {
+      transition: all 0.5s ease;
+      background: #333;
+      border-radius: 100%;
+      padding: 30px;
+      max-width: 200px;
+      max-height: auto;
+
+    }
+
+    img.coverage-circles:hover {
+      background: #cb2b26;
+      border-radius: 100%;
+      padding: 30px;
+      max-width: 200px;
+      max-height: auto;
+
+    }
+
+    .side-callout {
+      border-left: 1px solid #cccccc;
+      margin: 0px 0px 0px 30px;
+      padding: 0px 0px 30px 30px;
+    }
+
+    .side-callout h3 {
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 300;
+      padding-bottom: 10px;
+      text-transform: none;
+    }
+
+    .side-callout p {
+      font-size: 14px;
+      line-height: 24px;
+      color: #666666;
+    }
+
+    .process-wide {
+      display: block;
+    }
+
+    .process-small {
+      display: none;
+    }
+
+    .bcrumbs #breadcrumbs,
+    .content.wrapper .sfBreadcrumbWrp {
+      margin-top: 20px !important;
+      margin-bottom: 0px !important;
+      height: 45px;
+      overflow: hidden;
+      background: none !important;
+    }
+
+    .bcrumbs #breadcrumbs li,
+    .content.wrapper .sfBreadcrumbWrp .RadSiteMap .rsmOneLevel .rsmItem {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      float: left;
+      line-height: 3.3em;
+      padding-left: 5px;
+      color: #fff !important;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: bold;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      clear: none;
+    }
+
+    .bcrumbs #breadcrumbs li a,
+    .content.wrapper .sfBreadcrumbWrp .RadSiteMap .rsmOneLevel .rsmLink {
+      display: block;
+      padding: 0 30px 0 15px;
+      background: url(https://www.safeauto.com/images/default-source/svg_icons/bread_crumb_02.png) no-repeat right !important;
+      text-decoration: none !important;
+      opacity: .6;
+      color: rgba(255, 255, 255, 1) !important;
+      height: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .bcrumbs #breadcrumbs li a,
+    .content.wrapper .sfBreadcrumbWrp .RadSiteMap .rsmOneLevel .rsmLink:hover {
+      opacity: 1;
+      color: rgba(255, 255, 255, 1) !important;
+
+    }
+
+
+
+    .qblock .block4 {
+      margin-left: 0%;
+      height: 350px;
+      display: block;
+      overflow: hidden;
+      background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+      background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=1);
+      /* IE6-8 */
+    }
+
+    .qblock .block4 p {
+      font-size: 1.65em;
+      line-height: 2em;
+      font-weight: 400;
+      padding: 3% 4%;
+      margin-left: 30%;
+    }
+
+
+    .row-comprehensive {
+      padding-top: 60px !important;
+      padding-bottom: 80px !important;
+    }
+
+    @media (min-width:1440px) {
+
+      .qblock {
+        background: url(https://www.safeauto.com/images/default-source/default-album/woman_riding_car2.png) no-repeat left;
+        background-color: #fff;
+        height: 350px;
+        background-size: 1200px;
+        display: block;
+        overflow: hidden;
+      }
+
+      .qblock .block4 {
+        margin-left: 20%;
+        margin-right: 10%;
+        height: 350px;
+        display: block;
+        overflow: hidden;
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=1);
+        /* IE6-8 */
+      }
+
+      .qblock .block4 p {
+        font-size: 1.75em;
+        line-height: 2.25em;
+        font-weight: 400;
+        padding: 50px 100px;
+        margin-left: 20%;
+      }
+
+      .process-wide {
+        display: block;
+      }
+
+      .process-small {
+        display: none;
+      }
+
+    }
+
+
+    @media (max-width: 767px) {
+      .hero {
+        padding: 0 !important;
+        height: 300px !important;
+        background: url(/images/default-source/Home-2015/road-blur.jpg);
+        background-size: cover;
+      }
+
+      .hero .quote-circle2 {
+        z-index: 500;
+        width: 100% !important;
+        padding: 20px 0px !important;
+        margin: 30px auto 0;
+        position: relative;
+        text-align: center !important;
+        background: rgba(0, 0, 0, .5) !important;
+      }
+
+      .hero .quote-circle2 button {
+        width: 100%;
+
+      }
+
+      .hero .quote-circle2 a {
+        color: #fff;
+      }
+
+      .hero .quote-circle2 a.button {
+        color: #fff;
+        margin: 20px 20px;
+      }
+
+      .hero-subhead {
+        display: block;
+        font-size: 20px;
+        line-height: 24px;
+        color: #fff;
+        letter-spacing: .05em;
+        margin-bottom: 25px;
+        margin-top: 5px;
+      }
+
+
+      .highlight h1 {
+        text-align: center;
+      }
+
+      .side-callout {
+        border-top: 1px solid #cccccc;
+        border-left: none;
+        margin: 0px 0px 0px 0px;
+        padding: 10px 20px 10px 20px;
+      }
+
+      .qblock .block4 {
+        margin-left: 10%;
+        height: 350px;
+        display: block;
+        overflow: hidden;
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=1);
+        /* IE6-8 */
+      }
+
+      .qblock .block4 p {
+        font-size: 1.5em;
+        margin-left: 30%;
+        line-height: 2em;
+        font-weight: 400;
+        padding: 3% 4%;
+      }
+
+      .process-wide {
+        display: none;
+      }
+
+      .process-small {
+        display: block;
+      }
+
+      .coverage-icon {
+        text-align: center;
+        ;
+      }
+
+    }
+
+
+
+    @media (max-width: 443px) {
+
+      .hero {
+        padding: 0 !important;
+        height: 35vh !important;
+        background: url(/images/default-source/Home-2015/road-blur.jpg);
+        background-size: cover;
+      }
+
+      .hero .quote-circle2 {
+        z-index: 500;
+        width: 100% !important;
+        padding: 20px 0px !important;
+        margin: 50px auto 0;
+        position: relative;
+        text-align: center !important;
+        background: rgba(0, 0, 0, .5) !important;
+      }
+
+      .hero .quote-circle2 button {
+        width: 60%;
+
+      }
+
+      .hero .quote-circle2 a {
+        color: #fff;
+      }
+
+      .hero .quote-circle2 a.button {
+        color: #fff;
+        margin: 20px 20px;
+      }
+
+      .hero-subhead {
+        display: block;
+        font-size: 20px;
+        line-height: 24px;
+        color: #fff;
+        letter-spacing: .05em;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+
+
+      .highlight h1 {
+        text-align: center;
+      }
+
+      .process-large {
+        display: none;
+      }
+
+      .process-small {
+        display: block;
+      }
+
+      .side-callout {
+        border-top: 1px solid #cccccc;
+        border-left: none;
+        margin: 0px 0px 0px 0px;
+        padding: 10px 20px 10px 20px;
+      }
+
+      .qblock {
+        background: url(https://www.safeauto.com/images/default-source/default-album/woman_riding_car2.png) no-repeat left;
+        max-height: 350px;
+        display: block;
+        overflow: hidden;
+        background-size: cover;
+        background-position-x: -100px;
+      }
+
+      .qblock .block4 {
+        background: rgba(255, 255, 255, .8);
+        padding: 0px 0px;
+        margin: 0px;
+        display: block;
+        overflow: hidden;
+      }
+
+      .qblock .block4 p {
+        font-size: 1.25em;
+        line-height: 2em;
+        font-weight: 400;
+        padding: 20px 20px;
+        margin-left: 0px;
+      }
+
+      .coverage-icon {
+        text-align: center;
+
+      }
+
+    }
+    .report-box button {
+      background: #509ec0;
+      padding-left: 15px;
+      padding-right: 15px;
+      border: none;
+      color: #fff;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .row-fluid-discounts {
+      margin: 50px 0px;
+      border-bottom: 1px solid #cb2b26;
+
+    }
+
+
+
+    .safedrive {
+      background: url(https://www.safeauto.com/images/default-source/default-album/seat_belt_01.jpg?Status=Temp&sfvrsn=2);
+      background-size: cover;
+
+    }
+
+    .safedrive-text {
+      margin: 50px;
+      padding: 50px;
+    }
+
+    .safedrive h2 {
+      color: #ffffff;
+      font-size: 30px;
+      line-height: 40px;
+      font-weight: 300;
+      text-align: center;
+    }
+
+    .safedrive p {
+      color: #ffffff;
+      font-size: 18px;
+      line-height: 30px;
+      text-align: center;
+    }
+
+    .coverage-icon {
+      text-align: center;
+    }
+
+    img.coverage-circles {
+      transition: all 0.5s ease;
+      background: #333;
+      border-radius: 100%;
+      padding: 30px;
+      max-width: 200px;
+      max-height: auto;
+
+    }
+
+    img.coverage-circles:hover {
+      background: #cb2b26;
+      border-radius: 100%;
+      padding: 30px;
+      max-width: 200px;
+      max-height: auto;
+
+    }
+
+    /* headlines with lines */
+    .decorated {
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .decorated>span {
+      position: relative;
+      display: inline-block;
+    }
+
+    .decorated>span:before,
+    .decorated>span:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      border-bottom: 1px solid #cb2b26;
+      width: 591px;
+      /* half of limiter*/
+      margin: 0 20px;
+    }
+
+    .decorated>span:before {
+      right: 100%;
+    }
+
+    .decorated>span:after {
+      left: 100%;
+    }
+
+    span.h2 {
+      font-weight: 300;
+      font-size: 24px;
+      font-family: Helvetica;
+      text-transform: uppercase;
+    }
+
+    @media (min-width: 1440px) {
+      .safedrive {
+        background:
+          rgba(0, 0, 0, 0.2) url(https://www.safeauto.com/images/default-source/default-album/seat_belt_01.jpg?Status=Temp&sfvrsn=2);
+        background-size: cover;
+        background-position: center;
+
+      }
+    }
+
+    @media (max-width: 767px) {
+
+      .content.wrapper.drivesafe {
+        margin-bottom: 0px !important;
+
+      }
+
+
+      .safedrive-text {
+        margin: 10px;
+        padding: 10px;
+      }
+
+
+
+
+    }
+
+    .panel-default {
+      margin: -1px 0px;
+      padding: 20px 0px;
+      border-top: 1px solid #d0d0d0;
+      border-bottom: 1px solid #d0d0d0;
+    }
+
+    .panel-heading h4 {
+      font-size: 20px;
+    }
+
+    .panel-heading a {
+      text-decoration: none !important;
+      color: #fff !important;
+      font-weight: 400 !important;
+    }
+
+    .coverage-img {
+      margin: 0px 20px;
+      max-height: 60px;
+    }
+
+
+    .panel-body p {
+      margin: 25px 25px 25px;
+      font-size: 16px;
+      line-height: 30px;
+      color: #fff;
+    }
+
+    .arrow {
+      float: right;
+      color: #fff;
+      padding-top: 0px;
+      padding-right: 30px;
+      font-size: 36px !important;
+
+    }
+
+    .decorated {
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .decorated>span {
+      position: relative;
+      display: inline-block;
+    }
+
+    .decorated>span:before,
+    .decorated>span:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      border-bottom: 1px solid #cb2b26;
+      width: 591px;
+      /* half of limiter*/
+      margin: 0 20px;
+    }
+
+    .decorated>span:before {
+      right: 100%;
+    }
+
+    .decorated>span:after {
+      left: 100%;
+    }
+
+    span.h2 {
+      font-weight: 300;
+      font-size: 24px;
+      font-family: Helvetica;
+      text-transform: uppercase;
+    }
+
+
+
+
+    @media screen and (max-width: 443px) {
+
+      .box {
+        margin: 20px 10px 20px;
+      }
+
+      .panel-heading h4 {
+        font-size: 18px;
+      }
+
+
+
+      .arrow {
+        float: right;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-right: 10px;
+        font-size: 36px !important;
+      }
+    }

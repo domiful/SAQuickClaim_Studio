@@ -1,0 +1,379 @@
+{
+    "authorization": {
+        "allowedRoles": []
+    },
+    "classList": "",
+    "columns": [
+        {
+            "editable": true,
+            "encoded": true,
+            "field": "_id",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Id"
+        },
+        {
+            "editable": true,
+            "encoded": true,
+            "field": "manyInjuries",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "ManyInjuries"
+        },
+        {
+            "editable": true,
+            "encoded": true,
+            "field": "manyVehicles",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "ManyVehicles"
+        },
+        {
+            "editable": true,
+            "encoded": true,
+            "field": "lossCause",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "LossCause"
+        },
+        {
+            "editable": true,
+            "encoded": true,
+            "field": "statement",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Statement"
+        },
+        {
+            "editable": true,
+            "encoded": true,
+            "field": "lossLocation",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "LossLocation"
+        },
+        {
+            "editable": true,
+            "encoded": true,
+            "field": "insured",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Insured"
+        },
+        {
+            "editable": true,
+            "encoded": true,
+            "field": "claimant",
+            "filterable": true,
+            "format": "",
+            "sortable": true,
+            "title": "Claimant"
+        }
+    ],
+    "confirmRemove": true,
+    "customSections": {
+        "bottom": "bottom-section.component.html",
+        "middle": "middle-section.component.html",
+        "top": "top-section.component.html"
+    },
+    "dataProvider": "DefaultDataProvider",
+    "dataSource": "claims",
+    "editMode": "Edit",
+    "editOptions": {
+        "buttons": {
+            "back": {
+                "content": "Back",
+                "icon": "k-icon k-i-undo"
+            },
+            "cancel": {
+                "content": "Cancel",
+                "icon": "k-icon k-i-cancel"
+            },
+            "create": {
+                "content": "New",
+                "icon": "k-icon k-i-add"
+            },
+            "destroy": {
+                "content": "Delete",
+                "icon": "k-icon k-i-close"
+            },
+            "edit": {
+                "content": "Edit",
+                "icon": "k-icon k-i-edit"
+            },
+            "save": {
+                "content": "Save",
+                "icon": "k-icon k-i-checkmark"
+            }
+        }
+    },
+    "editTitle": "Edit",
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "onRowSelect": "onRowSelect",
+        "showEventHandler": "onShow"
+    },
+    "filterable": false,
+    "groupable": false,
+    "groups": [
+        {
+            "fields": [
+                {
+                    "componentOptions": {
+                        "annotations": {
+                            "id": "componentIdentifier"
+                        },
+                        "debounce": 0,
+                        "defaultValue": "",
+                        "events": {
+                            "onChange": ""
+                        },
+                        "id": "ctl1",
+                        "model": "formModel._id",
+                        "name": "_id",
+                        "placeholder": "",
+                        "schemaVersion": "1.0",
+                        "title": "Id",
+                        "type": "text-box",
+                        "uniqueID": "2ad571e2-501c-464c-9d77-818f1032b73a",
+                        "validation": {
+                            "required": false
+                        }
+                    },
+                    "editable": true,
+                    "format": "",
+                    "id": "ctl0",
+                    "itemType": "field",
+                    "label": "Id",
+                    "name": "_id"
+                },
+                {
+                    "componentOptions": {
+                        "annotations": {
+                            "id": "componentIdentifier"
+                        },
+                        "debounce": 0,
+                        "defaultValue": "",
+                        "events": {
+                            "onChange": ""
+                        },
+                        "id": "ctl3",
+                        "model": "formModel.manyInjuries",
+                        "name": "manyInjuries",
+                        "placeholder": "",
+                        "schemaVersion": "1.0",
+                        "title": "ManyInjuries",
+                        "type": "text-box",
+                        "uniqueID": "da383019-4089-4e9b-a8d4-ee8c2ae9752c",
+                        "validation": {
+                            "required": false
+                        }
+                    },
+                    "editable": true,
+                    "format": "",
+                    "id": "ctl2",
+                    "itemType": "field",
+                    "label": "ManyInjuries",
+                    "name": "manyInjuries"
+                },
+                {
+                    "componentOptions": {
+                        "annotations": {
+                            "id": "componentIdentifier"
+                        },
+                        "debounce": 0,
+                        "defaultValue": "",
+                        "events": {
+                            "onChange": ""
+                        },
+                        "id": "ctl5",
+                        "model": "formModel.manyVehicles",
+                        "name": "manyVehicles",
+                        "placeholder": "",
+                        "schemaVersion": "1.0",
+                        "title": "ManyVehicles",
+                        "type": "text-box",
+                        "uniqueID": "d6ef5c7d-4184-43bf-8d62-a2c862d018ed",
+                        "validation": {
+                            "required": false
+                        }
+                    },
+                    "editable": true,
+                    "format": "",
+                    "id": "ctl4",
+                    "itemType": "field",
+                    "label": "ManyVehicles",
+                    "name": "manyVehicles"
+                },
+                {
+                    "componentOptions": {
+                        "annotations": {
+                            "id": "componentIdentifier"
+                        },
+                        "debounce": 0,
+                        "defaultValue": "",
+                        "events": {
+                            "onChange": ""
+                        },
+                        "id": "ctl7",
+                        "model": "formModel.lossCause",
+                        "name": "lossCause",
+                        "placeholder": "",
+                        "schemaVersion": "1.0",
+                        "title": "LossCause",
+                        "type": "text-box",
+                        "uniqueID": "24904d97-5488-4617-bcd3-9b2d0f262e7e",
+                        "validation": {
+                            "required": false
+                        }
+                    },
+                    "editable": true,
+                    "format": "",
+                    "id": "ctl6",
+                    "itemType": "field",
+                    "label": "LossCause",
+                    "name": "lossCause"
+                },
+                {
+                    "componentOptions": {
+                        "annotations": {
+                            "id": "componentIdentifier"
+                        },
+                        "debounce": 0,
+                        "defaultValue": "",
+                        "events": {
+                            "onChange": ""
+                        },
+                        "id": "ctl9",
+                        "model": "formModel.statement",
+                        "name": "statement",
+                        "placeholder": "",
+                        "schemaVersion": "1.0",
+                        "title": "Statement",
+                        "type": "text-box",
+                        "uniqueID": "9925ac83-afae-406f-bd0e-569e612313ba",
+                        "validation": {
+                            "required": false
+                        }
+                    },
+                    "editable": true,
+                    "format": "",
+                    "id": "ctl8",
+                    "itemType": "field",
+                    "label": "Statement",
+                    "name": "statement"
+                },
+                {
+                    "componentOptions": {
+                        "annotations": {
+                            "id": "componentIdentifier"
+                        },
+                        "debounce": 0,
+                        "defaultValue": "",
+                        "events": {
+                            "onChange": ""
+                        },
+                        "id": "ctl11",
+                        "model": "formModel.lossLocation",
+                        "name": "lossLocation",
+                        "placeholder": "",
+                        "schemaVersion": "1.0",
+                        "title": "LossLocation",
+                        "type": "text-box",
+                        "uniqueID": "c8acbcdb-c8ac-4b67-94b1-a19676b536e7",
+                        "validation": {
+                            "required": false
+                        }
+                    },
+                    "editable": true,
+                    "format": "",
+                    "id": "ctl10",
+                    "itemType": "field",
+                    "label": "LossLocation",
+                    "name": "lossLocation"
+                },
+                {
+                    "componentOptions": {
+                        "annotations": {
+                            "id": "componentIdentifier"
+                        },
+                        "debounce": 0,
+                        "defaultValue": "",
+                        "events": {
+                            "onChange": ""
+                        },
+                        "id": "ctl13",
+                        "model": "formModel.insured",
+                        "name": "insured",
+                        "placeholder": "",
+                        "schemaVersion": "1.0",
+                        "title": "Insured",
+                        "type": "text-box",
+                        "uniqueID": "653f7e78-de88-4932-b198-67fbb2eee984",
+                        "validation": {
+                            "required": false
+                        }
+                    },
+                    "editable": true,
+                    "format": "",
+                    "id": "ctl12",
+                    "itemType": "field",
+                    "label": "Insured",
+                    "name": "insured"
+                },
+                {
+                    "componentOptions": {
+                        "annotations": {
+                            "id": "componentIdentifier"
+                        },
+                        "debounce": 0,
+                        "defaultValue": "",
+                        "events": {
+                            "onChange": ""
+                        },
+                        "id": "ctl15",
+                        "model": "formModel.claimant",
+                        "name": "claimant",
+                        "placeholder": "",
+                        "schemaVersion": "1.0",
+                        "title": "Claimant",
+                        "type": "text-box",
+                        "uniqueID": "286a9783-ce43-4e13-aee5-e20bd0b18980",
+                        "validation": {
+                            "required": false
+                        }
+                    },
+                    "editable": true,
+                    "format": "",
+                    "id": "ctl14",
+                    "itemType": "field",
+                    "label": "Claimant",
+                    "name": "claimant"
+                }
+            ],
+            "id": "a5f12eae-9a93-4f2a-824f-0c68c04294f2",
+            "name": "Default Group"
+        }
+    ],
+    "hidden": false,
+    "name": "QuickClaimSimple",
+    "newTitle": "New",
+    "pageSize": 20,
+    "platform": "web",
+    "reorderable": false,
+    "resizable": false,
+    "schemaVersion": "1.0",
+    "sortable": false,
+    "title": "Quick Claim",
+    "type": "view",
+    "uniqueID": "9e408fb9-0339-4f82-94dc-11e09e729e4e",
+    "viewType": "data-grid-separate-form"
+}
